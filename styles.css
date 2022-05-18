@@ -15,7 +15,7 @@
 body {
 	background-color: var(--Verylightgray);
 	color: var(--Verylightgray);
-	height: 100vh;
+	min-height: 100vh;
 	font-family: "Lexend Deca", sans-serif;
 
 	display: flex;
@@ -28,6 +28,8 @@ section {
 	width: 50rem;
 	display: flex;
 	margin-bottom: 20px;
+	border-radius: 0.5rem;
+	overflow: hidden;
 }
 
 .card {
@@ -78,7 +80,7 @@ button {
 	background-color: var(--Verylightgray);
 	padding: 12px 24px;
 	border-radius: 50px;
-	border: none;
+	border: 1px solid #fff;
 	cursor: pointer;
 }
 
